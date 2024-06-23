@@ -1,9 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://www.svgrepo.com/show/489955/star-favorite.svg"
+      type="image/svg"
+    />
+    <title>figma + grid</title>
   </head>
-  <body></body>
+
+  <body>
+    <!-- Тут серая шапка -->
+    <header class="header">
+      <div class="div_header">
+        <img src="/assets/img/Logo.png" alt="логотип" />
+      </div>
+
+      <div class="header_nav">
+        <a class="li_header" href="...">Home</a>
+        <a class="li_header" href="...">Blog</a>
+        <a class="li_header" href="...">About us</a>
+        <a class="li_header" href="...">Contact us</a>
+      </div>
+
+      <a class="bottom_header" href="...">Subscribe</a>
+    </header>
+    <!-- тут первый блок с блоком с картинкой  и жёлтой кнопкой-->
+    <main class="main">
+      <div class="block_header">
+        <div class="header_left">
+          <p>Featured Post</p>
+          <h2>Step-by-step guide to choosing great font pairs</h2>
+          <p>By John Doe l May 23, 2022</p>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident.
+          </p>
+          <a class="read_more_block_header" href="...">Read more></a>
+        </div>
+        <div>
+          <img
+            class="laptop_block_header"
+            src="/assets/img/girl-works-laptop_185193-16616.jpg"
+            alt="девушка работает за ноутбуком"
+          />
+        </div>
+      </div>
+
+      <!-- тут второй блок с блоком вертикальных картинок-->
+
+      <h2 class="all_post_main">All posts</h2>
+
+      <div class="div_main">
+        <!-- проработала одну секцию -->
+        <img
+          class="main_one"
+          src="/assets/img/two-women-in-front-of-dry-erase-board-1181533.png"
+          alt="две женщины"
+        />
+        <div>
+          <p>Startup</p>
+          <a class="main_capslock_one" href="..."
+            >Design tips for designers that cover everything you need</a
+          >
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident.
+          </p>
+        </div>
+        <!-- конец секции -->
+
+        <img
+          class="main_one"
+          src="/assets/img/photo-of-people-doing-handshakes-3183197.jpg"
+          alt="вид сверху на стол"
+        />
+        <h2>How to build rapport with your web design clients</h2>
+
+        <img
+          class="main_one"
+          src="/assets/img/photo-of-woman-looking-at-man-3183173.jpg"
+          alt="коллега смотрит"
+        />
+        <h2>Logo design trends to avoid in 2022</h2>
+
+        <img
+          class="main_one"
+          src="/assets/img/photo-of-people-walking-on-hallway-3182811.jpg"
+          alt="идут вдоль колонн"
+        />
+        <h2>8 Figma design systems you can download for free today</h2>
+
+        <img
+          class="main_one"
+          src="/assets/img/two-women-in-front-of-dry-erase-board-11815332.png"
+          alt="женщины разговаривают"
+        />
+        <h2>Font sizes in UI design: The complete guide to follow</h2>
+      </div>
+      <!-- листать страницы -->
+      <div class="prev_next_main">
+        <a class="prev_main" href="..."> Prev </a>
+        <a class="next_main" href="...">Next ></a>
+      </div>
+
+      <!-- секция четыре в ряд -->
+      <h2 class="all_post_main">All Categories</h2>
+
+      <div class="container_next_section">
+        <!-- проработала только первую секцию, далее скопировала -->
+        <div class="div_one">
+          <img class="img_one" src="/assets/img/Icon.png" alt="бизнес" />
+          <a class="one" href="...">Business</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <!-- конец секции -->
+
+        <div class="div_one">
+          <img class="img_one" src="/assets/img/raketa.png" alt="стартап" />
+          <a class="one" href="...">Startup</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+
+        <div class="div_one">
+          <img class="img_one" src="/assets/img/rost.png" alt="экономика" />
+          <a class="one" href="...">Economy</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+
+        <div class="div_one">
+          <img
+            class="img_one"
+            src="/assets/img/business-and-trade.png"
+            alt="технология"
+          />
+          <a class="one" href="...">Technology</a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- блок по середине -->
+      <div class="section_alone">
+        <h2 class="h2_section_alone">
+          Join our team to be a part of our story
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt.
+        </p>
+        <a class="read_more_block_header" href="...">Join Now</a>
+      </div>
+    </main>
+    <!-- футер -->
+
+    <footer class="footer">
+      <div class="top_footer">
+        <img src="/assets/img/Logo.png" alt="логотип" />
+        <!-- навигация -->
+        <div class="footer_nav">
+          <a class="li_header" href="...">Home</a>
+          <a class="li_header" href="...">Blog</a>
+          <a class="li_header" href="...">About us</a>
+          <a class="li_header" href="...">Contact us</a>
+          <a class="li_header" href="...">Privacy Policy</a>
+        </div>
+      </div>
+
+      <!-- светло-серый div внутри div -->
+      <div class="light_grey">
+        <h2 class="h_light_grey">
+          Subscribe to our news letter to get latest updates and news
+        </h2>
+        <a class="read_more_block_header" href="...">Subscribe</a>
+      </div>
+      <!-- нижняя часть футера -->
+
+      <div class="down_footer">
+        <div class="text_down_footer">
+          <p class="text_footer">Finstreet 118 2561 Fintown</p>
+          <p class="text_footer">Hello@finsweet.com 020 7993 2905</p>
+        </div>
+
+        <div class="icon_footer">
+          <img src="/assets/img/Negative.png" alt="фэйсбук" />
+          <img src="/assets/img/Vector.png" alt="твиттер" />
+          <img src="/assets/img/insta.png" alt="инстаграм" />
+          <img src="/assets/img/in.png" alt="in" />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
